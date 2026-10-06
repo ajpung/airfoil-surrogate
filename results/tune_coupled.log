@@ -1,0 +1,53 @@
+[2.8%] tune hyper cfg 0 (69s): Cd 0.859%, Cl MAE 0.0148, score 2.340 | best hyper: cfg 0 score 2.340 | elapsed 1.2 min
+[5.6%] tune hyper cfg 1 (54s): Cd 0.916%, Cl MAE 0.0149, score 2.409 | best hyper: cfg 0 score 2.340 | elapsed 2.1 min
+[8.3%] tune hyper cfg 2 (96s): Cd 0.908%, Cl MAE 0.0162, score 2.532 | best hyper: cfg 0 score 2.340 | elapsed 3.7 min
+[11.1%] tune hyper cfg 3 (42s): Cd 0.706%, Cl MAE 0.0148, score 2.188 | best hyper: cfg 3 score 2.188 | elapsed 4.4 min
+[13.9%] tune hyper cfg 4 (61s): Cd 0.965%, Cl MAE 0.0163, score 2.600 | best hyper: cfg 3 score 2.188 | elapsed 5.4 min
+[16.7%] tune hyper cfg 5 (123s): Cd 0.862%, Cl MAE 0.0145, score 2.314 | best hyper: cfg 3 score 2.188 | elapsed 7.4 min
+[19.4%] tune hyper cfg 6 (28s): Cd 0.884%, Cl MAE 0.0164, score 2.521 | best hyper: cfg 3 score 2.188 | elapsed 7.9 min
+[22.2%] tune hyper cfg 7 (76s): Cd 0.947%, Cl MAE 0.0144, score 2.391 | best hyper: cfg 3 score 2.188 | elapsed 9.2 min
+[25.0%] tune resultant cfg 0 (51s): Cd 1.002%, Cl MAE 0.0165, score 2.650 | best resultant: cfg 0 score 2.650 | elapsed 10.0 min
+[27.8%] tune resultant cfg 1 (30s): Cd 1.136%, Cl MAE 0.0209, score 3.223 | best resultant: cfg 0 score 2.650 | elapsed 10.5 min
+[30.6%] tune resultant cfg 2 (29s): Cd 1.238%, Cl MAE 0.0231, score 3.548 | best resultant: cfg 0 score 2.650 | elapsed 11.0 min
+[33.3%] tune resultant cfg 3 (24s): Cd 1.026%, Cl MAE 0.0159, score 2.613 | best resultant: cfg 3 score 2.613 | elapsed 11.4 min
+[36.1%] tune resultant cfg 4 (72s): Cd 1.220%, Cl MAE 0.0345, score 4.666 | best resultant: cfg 3 score 2.613 | elapsed 12.6 min
+[38.9%] tune resultant cfg 5 (55s): Cd 1.450%, Cl MAE 0.0320, score 4.650 | best resultant: cfg 3 score 2.613 | elapsed 13.5 min
+[41.7%] tune resultant cfg 6 (62s): Cd 2.019%, Cl MAE 0.0446, score 6.474 | best resultant: cfg 3 score 2.613 | elapsed 14.6 min
+[44.4%] tune resultant cfg 7 (23s): Cd 1.254%, Cl MAE 0.0362, score 4.872 | best resultant: cfg 3 score 2.613 | elapsed 15.0 min
+[47.2%] tune polar cfg 0 (88s): Cd 1.012%, Cl MAE 0.0132, score 2.330 | best polar: cfg 0 score 2.330 | elapsed 16.4 min
+[50.0%] tune polar cfg 1 (112s): Cd 0.889%, Cl MAE 0.0142, score 2.310 | best polar: cfg 1 score 2.310 | elapsed 18.3 min
+[52.8%] tune polar cfg 2 (42s): Cd 1.177%, Cl MAE 0.0147, score 2.646 | best polar: cfg 1 score 2.310 | elapsed 19.0 min
+[55.6%] tune polar cfg 3 (36s): Cd 0.912%, Cl MAE 0.0158, score 2.487 | best polar: cfg 1 score 2.310 | elapsed 19.6 min
+[58.3%] tune polar cfg 4 (65s): Cd 0.842%, Cl MAE 0.0127, score 2.117 | best polar: cfg 4 score 2.117 | elapsed 20.7 min
+[61.1%] tune polar cfg 5 (168s): Cd 0.862%, Cl MAE 0.0124, score 2.102 | best polar: cfg 5 score 2.102 | elapsed 23.5 min
+[63.9%] tune polar cfg 6 (49s): Cd 1.168%, Cl MAE 0.0135, score 2.521 | best polar: cfg 5 score 2.102 | elapsed 24.3 min
+[66.7%] tune polar cfg 7 (26s): Cd 1.068%, Cl MAE 0.0126, score 2.326 | best polar: cfg 5 score 2.102 | elapsed 24.7 min
+[69.4%] ensemble hyper 2/5 seeds (37s): Cd 0.673%, Cl MAE 0.0138 | elapsed 25.4 min
+[72.2%] ensemble hyper 3/5 seeds (37s): Cd 0.704%, Cl MAE 0.0136 | elapsed 26.0 min
+[75.0%] ensemble hyper 4/5 seeds (37s): Cd 0.681%, Cl MAE 0.0134 | elapsed 26.6 min
+[77.8%] ensemble hyper 5/5 seeds (37s): Cd 0.631%, Cl MAE 0.0131 | elapsed 27.2 min
+[80.6%] ensemble resultant 2/5 seeds (23s): Cd 0.848%, Cl MAE 0.0157 | elapsed 27.6 min
+[83.3%] ensemble resultant 3/5 seeds (24s): Cd 0.824%, Cl MAE 0.0142 | elapsed 28.0 min
+[86.1%] ensemble resultant 4/5 seeds (24s): Cd 0.773%, Cl MAE 0.0143 | elapsed 28.4 min
+[88.9%] ensemble resultant 5/5 seeds (24s): Cd 0.735%, Cl MAE 0.0142 | elapsed 28.8 min
+[91.7%] ensemble polar 2/5 seeds (167s): Cd 0.720%, Cl MAE 0.0106 | elapsed 31.6 min
+[94.4%] ensemble polar 3/5 seeds (169s): Cd 0.742%, Cl MAE 0.0107 | elapsed 34.4 min
+[97.2%] ensemble polar 4/5 seeds (167s): Cd 0.665%, Cl MAE 0.0099 | elapsed 37.2 min
+[100.0%] ensemble polar 5/5 seeds (177s): Cd 0.643%, Cl MAE 0.0101 | elapsed 40.1 min
+
+chosen configs: {"hyper": {"width": 128, "depth": 6, "lr": 0.0011190950937749046, "wd": 8.111427306649051e-06, "batch": 1024, "steps": 10000}, "resultant": {"width": 512, "depth": 3, "lr": 0.0003031684013835414, "wd": 0.00030913144887955633, "batch": 1024, "steps": 10000}, "polar": {"width": 256, "depth": 6, "lr": 0.0019330696609418771, "wd": 2.4822610200125517e-06, "batch": 2048, "steps": 30000}}
+
+                                          smooth Cd MdAPE%  smooth Cd R2  smooth Cl MAE  smooth force-angle MdAE deg  smooth L/D MdAE  smooth maxL/D MdAPE%  smooth alpha@maxL/D exact%  unflagged Cd MdAPE%  raw Cd MdAPE%  Cd<=0 count
+REF decoupled SVR pair (not a candidate)            0.4217        0.8823         0.0055                       0.0217           0.1767                0.6820                     70.1389               1.0969         3.2756       0.0000
+hyper tuned, 5-seed ensemble                        0.6306        0.9486         0.0131                       0.0481           0.4258                1.4750                     65.7407               1.4695         3.5904       0.0000
+polar tuned, 5-seed ensemble                        0.6430        0.9100         0.0101                       0.0400           0.3359                1.2128                     65.9722               1.3967         3.4626       0.0000
+hyper tuned, 1 seed                                 0.7063        0.9462         0.0148                       0.0549           0.4873                1.6197                     61.1111               1.5729         3.7412       0.0000
+resultant tuned, 5-seed ensemble                    0.7354        0.9382         0.0142                       0.0364           0.3719                0.9169                     78.4722               1.6590         3.7393       0.0000
+hyper / smooth                                      0.8594        0.9398         0.0148                       0.0568           0.4994                1.5359                     60.4167               1.7161         3.7962       0.0000
+polar tuned, 1 seed                                 0.8619        0.8860         0.0124                       0.0511           0.4680                1.6435                     59.7222               1.7908         4.1139       0.0000
+resultant / smooth                                  1.0016        0.9082         0.0165                       0.0467           0.4483                1.1097                     74.7685               1.8414         3.7010       0.0000
+polar / smooth                                      1.0125        0.8904         0.0132                       0.0540           0.4782                1.5696                     55.7870               2.1315         4.3005       0.0000
+resultant tuned, 1 seed                             1.0256        0.9362         0.0159                       0.0447           0.4309                1.1157                     73.1481               1.9982         4.1570       0.0000
+
+wrote C:\Users\aaron\Desktop\Airfoil\results\coupled_tuned_summary.csv
+exit 0

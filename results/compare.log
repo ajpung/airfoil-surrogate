@@ -1,0 +1,137 @@
+== S01 Poly4 Ridge
+  S01 Poly4 Ridge fold 0: 2s
+  S01 Poly4 Ridge fold 1: 4s
+  S01 Poly4 Ridge fold 2: 6s
+  S01 Poly4 Ridge fold 3: 8s
+  S01 Poly4 Ridge fold 4: 11s
+== S02 KNN (k=10)
+  S02 KNN (k=10) fold 0: 0s
+  S02 KNN (k=10) fold 1: 0s
+  S02 KNN (k=10) fold 2: 0s
+  S02 KNN (k=10) fold 3: 1s
+  S02 KNN (k=10) fold 4: 1s
+== S03 SVR (RBF)
+  S03 SVR (RBF) fold 0: 16s
+  S03 SVR (RBF) fold 1: 34s
+  S03 SVR (RBF) fold 2: 51s
+  S03 SVR (RBF) fold 3: 68s
+  S03 SVR (RBF) fold 4: 85s
+== S04 Nystroem KRR
+  S04 Nystroem KRR fold 0: 8s
+  S04 Nystroem KRR fold 1: 16s
+  S04 Nystroem KRR fold 2: 24s
+  S04 Nystroem KRR fold 3: 32s
+  S04 Nystroem KRR fold 4: 39s
+== S05 GP (ARD, 2.5k subsample)
+  S05 GP (ARD, 2.5k subsample) fold 0: 65s
+  S05 GP (ARD, 2.5k subsample) fold 1: 148s
+  S05 GP (ARD, 2.5k subsample) fold 2: 230s
+  S05 GP (ARD, 2.5k subsample) fold 3: 326s
+  S05 GP (ARD, 2.5k subsample) fold 4: 399s
+== S06 Random Forest
+  S06 Random Forest fold 0: 2s
+  S06 Random Forest fold 1: 3s
+  S06 Random Forest fold 2: 5s
+  S06 Random Forest fold 3: 7s
+  S06 Random Forest fold 4: 9s
+== S07 Extra Trees
+  S07 Extra Trees fold 0: 1s
+  S07 Extra Trees fold 1: 2s
+  S07 Extra Trees fold 2: 3s
+  S07 Extra Trees fold 3: 4s
+  S07 Extra Trees fold 4: 5s
+== S08 HistGradBoost
+  S08 HistGradBoost fold 0: 3s
+  S08 HistGradBoost fold 1: 5s
+  S08 HistGradBoost fold 2: 6s
+  S08 HistGradBoost fold 3: 9s
+  S08 HistGradBoost fold 4: 11s
+== S09 LightGBM
+  S09 LightGBM fold 0: 2s
+  S09 LightGBM fold 1: 5s
+  S09 LightGBM fold 2: 7s
+  S09 LightGBM fold 3: 10s
+  S09 LightGBM fold 4: 12s
+== S10 LightGBM Huber
+  S10 LightGBM Huber fold 0: 3s
+  S10 LightGBM Huber fold 1: 5s
+  S10 LightGBM Huber fold 2: 8s
+  S10 LightGBM Huber fold 3: 10s
+  S10 LightGBM Huber fold 4: 12s
+== S11 XGBoost
+  S11 XGBoost fold 0: 3s
+  S11 XGBoost fold 1: 6s
+  S11 XGBoost fold 2: 8s
+  S11 XGBoost fold 3: 11s
+  S11 XGBoost fold 4: 14s
+== S12 CatBoost
+  S12 CatBoost fold 0: 12s
+  S12 CatBoost fold 1: 24s
+  S12 CatBoost fold 2: 36s
+  S12 CatBoost fold 3: 48s
+  S12 CatBoost fold 4: 61s
+== S13 sklearn MLP
+  FAILED: InvalidParameterError("The 'loss' parameter of MLPRegressor must be a str among {'squared_error', 'poisson'}. Got (128, 128, 128) instead.")
+== S14 Torch ResMLP
+  S14 Torch ResMLP fold 0: 4s
+  S14 Torch ResMLP fold 1: 8s
+  S14 Torch ResMLP fold 2: 10s
+  S14 Torch ResMLP fold 3: 13s
+  S14 Torch ResMLP fold 4: 16s
+== S15 Avg ensemble (S09+S12+S14)
+== W1 Drag-polar hypernet
+  W1 Drag-polar hypernet fold 0: 3s
+  W1 Drag-polar hypernet fold 1: 5s
+  W1 Drag-polar hypernet fold 2: 7s
+  W1 Drag-polar hypernet fold 3: 9s
+  W1 Drag-polar hypernet fold 4: 12s
+== W2 KAN (RBF splines)
+  W2 KAN (RBF splines) fold 0: 2s
+  W2 KAN (RBF splines) fold 1: 5s
+  W2 KAN (RBF splines) fold 2: 7s
+  W2 KAN (RBF splines) fold 3: 9s
+  W2 KAN (RBF splines) fold 4: 11s
+== W3 Student-t heteroscedastic NN
+  W3 Student-t heteroscedastic NN fold 0: 4s
+  W3 Student-t heteroscedastic NN fold 1: 10s
+  W3 Student-t heteroscedastic NN fold 2: 14s
+  W3 Student-t heteroscedastic NN fold 3: 19s
+  W3 Student-t heteroscedastic NN fold 4: 25s
+== W4 Fourier-feature MLP
+  W4 Fourier-feature MLP fold 0: 1s
+  W4 Fourier-feature MLP fold 1: 2s
+  W4 Fourier-feature MLP fold 2: 3s
+  W4 Fourier-feature MLP fold 3: 5s
+  W4 Fourier-feature MLP fold 4: 6s
+== W5 Thin-airfoil physics feats + LightGBM
+  W5 Thin-airfoil physics feats + LightGBM fold 0: 3s
+  W5 Thin-airfoil physics feats + LightGBM fold 1: 6s
+  W5 Thin-airfoil physics feats + LightGBM fold 2: 9s
+  W5 Thin-airfoil physics feats + LightGBM fold 3: 12s
+  W5 Thin-airfoil physics feats + LightGBM fold 4: 15s
+
+Dev: 19687 pts, 1627 geometries; train filter 'conflict+jump'; ranked by smooth Cd MdAPE%
+
+                                          smooth Cd MdAPE%  ...  raw Cl R2
+model                                                       ...           
+S03 SVR (RBF)                                       2.1641  ...     0.9580
+W3 Student-t heteroscedastic NN                     2.5457  ...     0.9614
+S10 LightGBM Huber                                  3.0625  ...     0.9630
+S02 KNN (k=10)                                      5.2455  ...     0.9427
+S14 Torch ResMLP                                    8.3562  ...     0.9621
+W2 KAN (RBF splines)                                8.5723  ...     0.9340
+S07 Extra Trees                                     8.6218  ...     0.9604
+S06 Random Forest                                   9.3741  ...     0.9594
+S15 Avg ensemble (S09+S12+S14)                      9.4298  ...     0.9653
+S08 HistGradBoost                                   9.4397  ...     0.9621
+W1 Drag-polar hypernet                              9.4660  ...     0.9587
+S05 GP (ARD, 2.5k subsample)                        9.6759  ...     0.9644
+W5 Thin-airfoil physics feats + LightGBM            9.6966  ...     0.9628
+S12 CatBoost                                        9.8466  ...     0.9629
+S09 LightGBM                                       10.1484  ...     0.9625
+S11 XGBoost                                        10.3308  ...     0.9610
+S01 Poly4 Ridge                                    10.6591  ...     0.5561
+S04 Nystroem KRR                                   11.2102  ...     0.9392
+W4 Fourier-feature MLP                             11.2681  ...     0.9448
+
+[19 rows x 9 columns]

@@ -1,0 +1,69 @@
+cfg  0/40:  51.9s, 20000 iters, smooth Cd MdAPE 2.225%
+cfg  1/40:  65.0s, 20000 iters, smooth Cd MdAPE 2.201%
+cfg  2/40:  62.9s, 20000 iters, smooth Cd MdAPE 8.151%
+cfg  3/40:  64.5s, 20000 iters, smooth Cd MdAPE 7.612%
+cfg  4/40:  93.9s, 20000 iters, smooth Cd MdAPE 16.024%
+cfg  5/40:  93.4s, 20000 iters, smooth Cd MdAPE 17.496%
+cfg  6/40:  95.7s, 20000 iters, smooth Cd MdAPE 7.086%
+cfg  7/40:  95.8s, 20000 iters, smooth Cd MdAPE 6.709%
+cfg  8/40:  50.5s, 20000 iters, smooth Cd MdAPE 12.839%
+cfg  9/40:  51.0s, 20000 iters, smooth Cd MdAPE 5.095%
+cfg 10/40:  51.5s, 20000 iters, smooth Cd MdAPE 6.006%
+cfg 11/40:  51.6s, 20000 iters, smooth Cd MdAPE 1.653%
+cfg 12/40:  51.5s, 20000 iters, smooth Cd MdAPE 1.296%
+cfg 13/40:  65.1s, 20000 iters, smooth Cd MdAPE 1.808%
+cfg 14/40:  67.3s, 20000 iters, smooth Cd MdAPE 2.341%
+cfg 15/40:  67.4s, 20000 iters, smooth Cd MdAPE 6.079%
+cfg 16/40:  13.6s, 20000 iters, smooth Cd MdAPE 1.460%
+cfg 17/40:  67.7s, 20000 iters, smooth Cd MdAPE 4.847%
+cfg 18/40:  67.6s, 20000 iters, smooth Cd MdAPE 11.992%
+cfg 19/40:  13.1s, 20000 iters, smooth Cd MdAPE 0.585%
+cfg 20/40:  97.7s, 20000 iters, smooth Cd MdAPE 7.065%
+cfg 21/40:  96.8s, 20000 iters, smooth Cd MdAPE 4.811%
+cfg 22/40:  95.4s, 20000 iters, smooth Cd MdAPE 13.662%
+cfg 23/40:  62.6s, 20000 iters, smooth Cd MdAPE 14.319%
+cfg 24/40:  96.4s, 20000 iters, smooth Cd MdAPE 4.155%
+cfg 25/40:  12.8s, 20000 iters, smooth Cd MdAPE 1.402%
+cfg 26/40:  93.8s, 20000 iters, smooth Cd MdAPE 12.569%
+cfg 27/40:  12.5s, 20000 iters, smooth Cd MdAPE 5.168%
+cfg 28/40:  63.4s, 20000 iters, smooth Cd MdAPE 8.600%
+cfg 29/40:  51.4s, 20000 iters, smooth Cd MdAPE 1.488%
+cfg 30/40:  50.5s, 20000 iters, smooth Cd MdAPE 7.451%
+cfg 31/40:  62.9s, 20000 iters, smooth Cd MdAPE 14.181%
+cfg 32/40:  50.9s, 20000 iters, smooth Cd MdAPE 2.689%
+cfg 33/40:  51.0s, 20000 iters, smooth Cd MdAPE 3.619%
+cfg 34/40:  61.7s, 20000 iters, smooth Cd MdAPE 12.585%
+cfg 35/40:  64.5s, 20000 iters, smooth Cd MdAPE 7.270%
+cfg 36/40:  94.6s, 20000 iters, smooth Cd MdAPE 15.456%
+cfg 37/40:  51.1s, 20000 iters, smooth Cd MdAPE 6.461%
+cfg 38/40:  64.7s, 20000 iters, smooth Cd MdAPE 1.766%
+cfg 39/40:  94.5s, 20000 iters, smooth Cd MdAPE 12.985%
+cfg 40/40:  50.2s, 20000 iters, smooth Cd MdAPE 12.508%
+41 configs x 5 folds x 2 targets in 2620s
+
+== Cd (smooth-val MdAPE%); baseline cfg 0 = 2.2248
+ cfg   mean     se      C  epsilon  gamma        filter feats
+  19 0.5846 0.0162 5.0454   0.0215 0.0277        smooth   raw
+  12 1.2963 0.0383 0.9954   0.0052 0.0214 conflict+jump   raw
+  25 1.4018 0.0314 0.8546   0.1022 0.0456        smooth   raw
+  16 1.4604 0.0547 9.4533   0.0557 0.2711        smooth   raw
+  29 1.4879 0.0546 1.6157   0.0034 0.1102 conflict+jump   raw
+  11 1.6532 0.0788 0.4916   0.0220 0.0598 conflict+jump  phys
+  38 1.7659 0.0527 0.3914   0.0053 0.0215      conflict   raw
+  13 1.8079 0.0942 9.2731   0.0120 0.0360      conflict   raw
+best cfg 19: 0.5846 +/- 0.0162; 1-SE pick cfg 19: 0.5846
+
+== Cl (smooth-val MAE); baseline cfg 0 = 0.0179
+ cfg   mean     se       C  epsilon  gamma        filter feats
+  12 0.0075 0.0013  0.9954   0.0052 0.0214 conflict+jump   raw
+  19 0.0087 0.0011  5.0454   0.0215 0.0277        smooth   raw
+  38 0.0095 0.0010  0.3914   0.0053 0.0215      conflict   raw
+  13 0.0095 0.0016  9.2731   0.0120 0.0360      conflict   raw
+  29 0.0119 0.0019  1.6157   0.0034 0.1102 conflict+jump   raw
+  24 0.0119 0.0017 27.7317   0.0034 0.0377          none   raw
+   1 0.0139 0.0021 33.4331   0.0013 0.0552      conflict   raw
+  11 0.0173 0.0025  0.4916   0.0220 0.0598 conflict+jump  phys
+best cfg 12: 0.0075 +/- 0.0013; 1-SE pick cfg 12: 0.0075
+
+wrote C:\Users\aaron\Desktop\Airfoil\results\svr_tuned.json
+exit 0

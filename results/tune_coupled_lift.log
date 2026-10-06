@@ -1,0 +1,53 @@
+[2.8%] tune hyper_net cfg 0 (91s): Cd 1.140%, Cl MAE 0.0186, score 2.996 | best hyper_net: cfg 0 score 2.996 | overall best: hyper_net cfg 0 score 2.996 | elapsed 1.5 min
+[5.6%] tune hyper_net cfg 1 (105s): Cd 1.152%, Cl MAE 0.0195, score 3.100 | best hyper_net: cfg 0 score 2.996 | overall best: hyper_net cfg 0 score 2.996 | elapsed 3.3 min
+[8.3%] tune hyper_net cfg 2 (120s): Cd 1.088%, Cl MAE 0.0193, score 3.018 | best hyper_net: cfg 0 score 2.996 | overall best: hyper_net cfg 0 score 2.996 | elapsed 5.3 min
+[11.1%] tune hyper_net cfg 3 (59s): Cd 0.910%, Cl MAE 0.0162, score 2.533 | best hyper_net: cfg 3 score 2.533 | overall best: hyper_net cfg 3 score 2.533 | elapsed 6.3 min
+[13.9%] tune hyper_net cfg 4 (92s): Cd 1.027%, Cl MAE 0.0162, score 2.650 | best hyper_net: cfg 3 score 2.533 | overall best: hyper_net cfg 3 score 2.533 | elapsed 7.8 min
+[16.7%] tune hyper_net cfg 5 (172s): Cd 1.179%, Cl MAE 0.0171, score 2.894 | best hyper_net: cfg 3 score 2.533 | overall best: hyper_net cfg 3 score 2.533 | elapsed 10.7 min
+[19.4%] tune hyper_net cfg 6 (33s): Cd 0.971%, Cl MAE 0.0168, score 2.651 | best hyper_net: cfg 3 score 2.533 | overall best: hyper_net cfg 3 score 2.533 | elapsed 11.2 min
+[22.2%] tune hyper_net cfg 7 (101s): Cd 1.142%, Cl MAE 0.0169, score 2.831 | best hyper_net: cfg 3 score 2.533 | overall best: hyper_net cfg 3 score 2.533 | elapsed 12.9 min
+[25.0%] tune hyper_tat cfg 0 (105s): Cd 0.872%, Cl MAE 0.0150, score 2.367 | best hyper_tat: cfg 0 score 2.367 | overall best: hyper_tat cfg 0 score 2.367 | elapsed 14.7 min
+[27.8%] tune hyper_tat cfg 1 (64s): Cd 0.735%, Cl MAE 0.0144, score 2.176 | best hyper_tat: cfg 1 score 2.176 | overall best: hyper_tat cfg 1 score 2.176 | elapsed 15.7 min
+[30.6%] tune hyper_tat cfg 2 (57s): Cd 0.964%, Cl MAE 0.0172, score 2.686 | best hyper_tat: cfg 1 score 2.176 | overall best: hyper_tat cfg 1 score 2.176 | elapsed 16.7 min
+[33.3%] tune hyper_tat cfg 3 (48s): Cd 0.938%, Cl MAE 0.0148, score 2.422 | best hyper_tat: cfg 1 score 2.176 | overall best: hyper_tat cfg 1 score 2.176 | elapsed 17.5 min
+[36.1%] tune hyper_tat cfg 4 (130s): Cd 1.090%, Cl MAE 0.0170, score 2.790 | best hyper_tat: cfg 1 score 2.176 | overall best: hyper_tat cfg 1 score 2.176 | elapsed 19.6 min
+[38.9%] tune hyper_tat cfg 5 (94s): Cd 1.141%, Cl MAE 0.0174, score 2.884 | best hyper_tat: cfg 1 score 2.176 | overall best: hyper_tat cfg 1 score 2.176 | elapsed 21.2 min
+[41.7%] tune hyper_tat cfg 6 (125s): Cd 1.146%, Cl MAE 0.0188, score 3.024 | best hyper_tat: cfg 1 score 2.176 | overall best: hyper_tat cfg 1 score 2.176 | elapsed 23.3 min
+[44.4%] tune hyper_tat cfg 7 (37s): Cd 0.821%, Cl MAE 0.0150, score 2.326 | best hyper_tat: cfg 1 score 2.176 | overall best: hyper_tat cfg 1 score 2.176 | elapsed 23.9 min
+[47.2%] tune hyper_q5 cfg 0 (76s): Cd 0.799%, Cl MAE 0.0137, score 2.173 | best hyper_q5: cfg 0 score 2.173 | overall best: hyper_q5 cfg 0 score 2.173 | elapsed 25.2 min
+[50.0%] tune hyper_q5 cfg 1 (89s): Cd 0.760%, Cl MAE 0.0128, score 2.043 | best hyper_q5: cfg 1 score 2.043 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 26.7 min
+[52.8%] tune hyper_q5 cfg 2 (37s): Cd 0.789%, Cl MAE 0.0142, score 2.211 | best hyper_q5: cfg 1 score 2.043 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 27.3 min
+[55.6%] tune hyper_q5 cfg 3 (33s): Cd 0.846%, Cl MAE 0.0160, score 2.447 | best hyper_q5: cfg 1 score 2.043 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 27.9 min
+[58.3%] tune hyper_q5 cfg 4 (44s): Cd 0.775%, Cl MAE 0.0133, score 2.105 | best hyper_q5: cfg 1 score 2.043 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 28.6 min
+[61.1%] tune hyper_q5 cfg 5 (126s): Cd 0.824%, Cl MAE 0.0132, score 2.144 | best hyper_q5: cfg 1 score 2.043 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 30.7 min
+[63.9%] tune hyper_q5 cfg 6 (43s): Cd 0.799%, Cl MAE 0.0159, score 2.393 | best hyper_q5: cfg 1 score 2.043 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 31.4 min
+[66.7%] tune hyper_q5 cfg 7 (30s): Cd 1.097%, Cl MAE 0.0174, score 2.833 | best hyper_q5: cfg 1 score 2.043 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 31.9 min
+[69.4%] ensemble hyper_net 2/5 seeds (59s): Cd 0.822%, Cl MAE 0.0150 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 32.9 min
+[72.2%] ensemble hyper_net 3/5 seeds (60s): Cd 0.771%, Cl MAE 0.0137 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 33.9 min
+[75.0%] ensemble hyper_net 4/5 seeds (62s): Cd 0.777%, Cl MAE 0.0136 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 34.9 min
+[77.8%] ensemble hyper_net 5/5 seeds (59s): Cd 0.744%, Cl MAE 0.0131 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 35.9 min
+[80.6%] ensemble hyper_tat 2/5 seeds (62s): Cd 0.689%, Cl MAE 0.0131 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 36.9 min
+[83.3%] ensemble hyper_tat 3/5 seeds (63s): Cd 0.687%, Cl MAE 0.0127 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 38.0 min
+[86.1%] ensemble hyper_tat 4/5 seeds (63s): Cd 0.648%, Cl MAE 0.0125 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 39.0 min
+[88.9%] ensemble hyper_tat 5/5 seeds (63s): Cd 0.630%, Cl MAE 0.0123 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 40.1 min
+[91.7%] ensemble hyper_q5 2/5 seeds (85s): Cd 0.682%, Cl MAE 0.0122 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 41.5 min
+[94.4%] ensemble hyper_q5 3/5 seeds (85s): Cd 0.614%, Cl MAE 0.0121 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 42.9 min
+[97.2%] ensemble hyper_q5 4/5 seeds (85s): Cd 0.615%, Cl MAE 0.0122 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 44.3 min
+[100.0%] ensemble hyper_q5 5/5 seeds (85s): Cd 0.590%, Cl MAE 0.0121 | overall best: hyper_q5 cfg 1 score 2.043 | elapsed 45.7 min
+
+chosen configs: {"hyper_net": {"width": 128, "depth": 6, "lr": 0.0011190950937749046, "wd": 8.111427306649051e-06, "batch": 1024, "steps": 10000}, "hyper_tat": {"width": 512, "depth": 4, "lr": 0.0012743691760507458, "wd": 3.0947124791740574e-05, "batch": 1024, "steps": 10000}, "hyper_q5": {"width": 256, "depth": 6, "lr": 0.0008724631342099668, "wd": 0.0008634628424494425, "batch": 1024, "steps": 20000}}
+
+                                          smooth Cd MdAPE%  smooth Cd R2  smooth Cl MAE  smooth force-angle MdAE deg  smooth L/D MdAE  smooth maxL/D MdAPE%  smooth alpha@maxL/D exact%  unflagged Cd MdAPE%  raw Cd MdAPE%  Cd<=0 count
+REF decoupled SVR pair (not a candidate)            0.4217        0.8823         0.0055                       0.0217           0.1767                0.6820                     70.1389               1.0969         3.2756       0.0000
+hyper_q5 tuned, 5-seed ensemble                     0.5899        0.9441         0.0121                       0.0422           0.3656                1.2804                     63.6574               1.4414         3.5523       0.0000
+hyper_tat tuned, 5-seed ensemble                    0.6300        0.9392         0.0123                       0.0448           0.3879                1.5294                     64.3519               1.4905         3.5841       0.0000
+hyper tuned, 5-seed ensemble                        0.6306        0.9486         0.0131                       0.0481           0.4258                1.4750                     65.7407               1.4695         3.5904       0.0000
+polar tuned, 5-seed ensemble                        0.6430        0.9100         0.0101                       0.0400           0.3359                1.2128                     65.9722               1.3967         3.4626       0.0000
+hyper_tat tuned, 1 seed                             0.7350        0.9400         0.0144                       0.0544           0.4767                1.6409                     62.9630               1.6337         3.7985       0.0000
+resultant tuned, 5-seed ensemble                    0.7354        0.9382         0.0142                       0.0364           0.3719                0.9169                     78.4722               1.6590         3.7393       0.0000
+hyper_net tuned, 5-seed ensemble                    0.7439        0.9293         0.0131                       0.0489           0.4228                1.5773                     65.0463               1.6485         4.0089       0.0000
+hyper_q5 tuned, 1 seed                              0.7595        0.9411         0.0128                       0.0498           0.4075                1.4238                     61.1111               1.6199         3.7362       0.0000
+hyper_net tuned, 1 seed                             0.9102        0.9251         0.0162                       0.0607           0.5327                1.6701                     60.6481               1.9106         4.2322       0.0000
+
+wrote C:\Users\aaron\Desktop\Airfoil\results\coupled_tuned_summary_lift.csv
+exit 0

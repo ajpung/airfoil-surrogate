@@ -1,0 +1,25 @@
+configs from svr_tuned.json: {"Cd": {"C": 15.798379238349437, "epsilon": 0.001023616324195457, "gamma": 0.02168997807167017, "filter": "smooth", "feats": "raw", "cv_mean": 0.4206735248352901, "cv_se": 0.010318289102137009}, "Cl": {"C": 10.758970432508923, "epsilon": 0.0023056490412535924, "gamma": 0.01610166633526068, "filter": "smooth", "feats": "raw", "cv_mean": 0.005571313404329583, "cv_se": 0.0007307252294710224}}
+Held-out test: 3509 pts, 288 geometries (unflagged 2414, smooth 1032)
+
+-- raw
+                                 raw Cd MdAPE%  raw Cd MAE  raw Cd R2  raw Cl MAE  raw Cl R2
+AoA-mean (no shape)                    34.3514      0.0098     0.1028      0.1659     0.7461
+LightGBM L2 (original baseline)        13.1011      0.0074     0.1602      0.0429     0.9668
+SVR default (S03)                       6.4295      0.0074     0.0140      0.0414     0.9610
+SVR tuned (final)                       3.0275      0.0077    -0.1105      0.0375     0.9622 
+
+-- unflagged
+                                 unflagged Cd MdAPE%  unflagged Cd MAE  unflagged Cd R2  unflagged Cl MAE  unflagged Cl R2
+AoA-mean (no shape)                          36.0670            0.0082          -0.0059            0.1698           0.7430
+LightGBM L2 (original baseline)              10.0272            0.0044           0.3924            0.0307           0.9831
+SVR default (S03)                             3.3698            0.0037           0.3133            0.0261           0.9809
+SVR tuned (final)                             0.8938            0.0036           0.1992            0.0207           0.9825 
+
+-- smooth
+                                 smooth Cd MdAPE%  smooth Cd MAE  smooth Cd R2  smooth Cl MAE  smooth Cl R2
+AoA-mean (no shape)                       40.6151         0.0076       -1.4470         0.1670        0.7623
+LightGBM L2 (original baseline)            7.9961         0.0024        0.5589         0.0206        0.9927
+SVR default (S03)                          1.7272         0.0009        0.8910         0.0122        0.9976
+SVR tuned (final)                          0.4222         0.0005        0.8309         0.0042        0.9994 
+
+exit 0

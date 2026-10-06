@@ -1,0 +1,37 @@
+reference SVR pair scored (26s)
+[5%] body / smooth half-way (27s)
+[10%] body / smooth done (54s): smooth Cd MdAPE 1.521%, smooth Cl MAE 0.0130, smooth force-angle MAE 1.395 deg
+[15%] resultant / smooth half-way (28s)
+[20%] resultant / smooth done (56s): smooth Cd MdAPE 1.002%, smooth Cl MAE 0.0165, smooth force-angle MAE 3.600 deg
+[25%] polar / smooth half-way (42s)
+[30%] polar / smooth done (83s): smooth Cd MdAPE 1.012%, smooth Cl MAE 0.0132, smooth force-angle MAE 1.465 deg
+[35%] hyper / smooth half-way (34s)
+[40%] hyper / smooth done (68s): smooth Cd MdAPE 0.859%, smooth Cl MAE 0.0148, smooth force-angle MAE 1.716 deg
+[45%] joint / smooth half-way (25s)
+[50%] joint / smooth done (51s): smooth Cd MdAPE 0.634%, smooth Cl MAE 0.0108, smooth force-angle MAE 1.214 deg
+[55%] body / conflict+jump half-way (27s)
+[60%] body / conflict+jump done (54s): smooth Cd MdAPE 5.891%, smooth Cl MAE 0.0323, smooth force-angle MAE 3.580 deg
+[65%] resultant / conflict+jump half-way (28s)
+[70%] resultant / conflict+jump done (56s): smooth Cd MdAPE 5.482%, smooth Cl MAE 0.0446, smooth force-angle MAE 14.321 deg
+[75%] polar / conflict+jump half-way (42s)
+[80%] polar / conflict+jump done (84s): smooth Cd MdAPE 5.055%, smooth Cl MAE 0.0274, smooth force-angle MAE 2.819 deg
+[85%] hyper / conflict+jump half-way (33s)
+[90%] hyper / conflict+jump done (67s): smooth Cd MdAPE 4.801%, smooth Cl MAE 0.0268, smooth force-angle MAE 2.640 deg
+[95%] joint / conflict+jump half-way (25s)
+[100%] joint / conflict+jump done (51s): smooth Cd MdAPE 5.322%, smooth Cl MAE 0.0395, smooth force-angle MAE 3.508 deg
+
+                                          smooth Cd MdAPE%  smooth Cl MAE  smooth force-angle MdAE deg  smooth L/D MdAE  smooth maxL/D MdAPE%  smooth alpha@maxL/D exact%  unflagged Cd MdAPE%  unflagged Cl MAE  raw Cd MdAPE%  raw Cl MAE  Cd<=0 count
+REF decoupled SVR pair (not a candidate)            0.4217         0.0055                       0.0217           0.1767                0.6820                     70.1389               1.0969            0.0216         3.2756      0.0383       0.0000
+joint / smooth                                      0.6342         0.0108                       0.0424           0.3900                1.0611                     74.5370               1.4335            0.0262         3.5538      0.0418       0.0000
+hyper / smooth                                      0.8594         0.0148                       0.0568           0.4994                1.5359                     60.4167               1.7161            0.0300         3.7962      0.0452       0.0000
+resultant / smooth                                  1.0016         0.0165                       0.0467           0.4483                1.1097                     74.7685               1.8414            0.0315         3.7010      0.0470       0.0000
+polar / smooth                                      1.0125         0.0132                       0.0540           0.4782                1.5696                     55.7870               2.1315            0.0270         4.3005      0.0420       0.0000
+body / smooth                                       1.5210         0.0130                       0.0726           0.5647                2.5403                     57.1759               2.7481            0.0280         5.2692      0.0431       1.0000
+hyper / conflict+jump                               4.8009         0.0268                       0.2101           1.5651                7.2574                     43.9815               5.8647            0.0366         8.3942      0.0483       0.0000
+polar / conflict+jump                               5.0553         0.0274                       0.2119           1.6927                4.9138                     32.6389               5.9795            0.0366         8.1297      0.0473       0.0000
+joint / conflict+jump                               5.3220         0.0395                       0.3116           2.3347                7.5727                     39.1204               6.3252            0.0460         8.4734      0.0541       0.0000
+resultant / conflict+jump                           5.4819         0.0446                       0.2246           2.1343                7.5107                     36.3426               6.5350            0.0529         8.8581      0.0638       0.0000
+body / conflict+jump                                5.8905         0.0323                       0.2711           2.0515                7.7451                     45.1389               7.2879            0.0406        10.0632      0.0505       0.0000
+
+wrote C:\Users\aaron\Desktop\Airfoil\results\coupled_summary.csv
+exit 0

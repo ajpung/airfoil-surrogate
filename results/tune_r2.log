@@ -1,0 +1,50 @@
+cfg  0/21:  13.1s, 20000 iters, smooth Cd MdAPE 0.585%
+cfg  1/21:  50.8s, 20000 iters, smooth Cd MdAPE 1.296%
+cfg  2/21:  51.1s, 20000 iters, smooth Cd MdAPE 1.815%
+cfg  3/21:  12.6s, 20000 iters, smooth Cd MdAPE 1.631%
+cfg  4/21:  12.5s, 20000 iters, smooth Cd MdAPE 0.822%
+cfg  5/21:  51.1s, 20000 iters, smooth Cd MdAPE 4.173%
+cfg  6/21:  12.9s, 20000 iters, smooth Cd MdAPE 0.548%
+cfg  7/21:  12.7s, 20000 iters, smooth Cd MdAPE 0.697%
+cfg  8/21:  12.6s, 20000 iters, smooth Cd MdAPE 2.596%
+cfg  9/21:  51.2s, 20000 iters, smooth Cd MdAPE 1.496%
+cfg 10/21:  51.3s, 20000 iters, smooth Cd MdAPE 3.205%
+cfg 11/21:  12.6s, 20000 iters, smooth Cd MdAPE 0.445%
+cfg 12/21:  51.2s, 20000 iters, smooth Cd MdAPE 2.731%
+cfg 13/21:  12.7s, 20000 iters, smooth Cd MdAPE 0.541%
+cfg 14/21:  12.7s, 20000 iters, smooth Cd MdAPE 0.517%
+cfg 15/21:  51.1s, 20000 iters, smooth Cd MdAPE 1.864%
+cfg 16/21:  12.6s, 20000 iters, smooth Cd MdAPE 0.789%
+cfg 17/21:  12.8s, 20000 iters, smooth Cd MdAPE 0.421%
+cfg 18/21:  51.3s, 20000 iters, smooth Cd MdAPE 1.361%
+cfg 19/21:  12.6s, 20000 iters, smooth Cd MdAPE 0.984%
+cfg 20/21:  12.7s, 20000 iters, smooth Cd MdAPE 0.824%
+cfg 21/21:  51.2s, 20000 iters, smooth Cd MdAPE 2.867%
+22 configs x 5 folds x 2 targets in 625s
+
+== Cd (smooth-val MdAPE%); cfg 0 = 0.5846
+ cfg   mean     se       C  epsilon  gamma filter feats
+  17 0.4207 0.0103 15.7984   0.0010 0.0217 smooth   raw
+  11 0.4448 0.0167 11.1779   0.0079 0.0309 smooth   raw
+  14 0.5175 0.0175 10.7590   0.0023 0.0161 smooth   raw
+  13 0.5410 0.0197 13.6402   0.0190 0.0333 smooth   raw
+   6 0.5480 0.0243  8.1031   0.0103 0.0170 smooth   raw
+   0 0.5846 0.0162  5.0454   0.0215 0.0277 smooth   raw
+   7 0.6974 0.0419  0.3813   0.0013 0.0419 smooth   raw
+  16 0.7891 0.0093 22.0516   0.0011 0.0038 smooth   raw
+best cfg 17: 0.4207 +/- 0.0103; 1-SE pick cfg 17: 0.4207
+
+== Cl (smooth-val MAE); cfg 0 = 0.0087
+ cfg   mean     se       C  epsilon  gamma        filter feats
+  17 0.0055 0.0009 15.7984   0.0010 0.0217        smooth   raw
+  14 0.0056 0.0007 10.7590   0.0023 0.0161        smooth   raw
+   6 0.0066 0.0008  8.1031   0.0103 0.0170        smooth   raw
+  11 0.0070 0.0012 11.1779   0.0079 0.0309        smooth   raw
+   1 0.0075 0.0013  0.9954   0.0052 0.0214 conflict+jump   raw
+  16 0.0079 0.0006 22.0516   0.0011 0.0038        smooth   raw
+   4 0.0081 0.0007  4.5125   0.0077 0.0061        smooth   raw
+  20 0.0085 0.0007 24.5802   0.0033 0.0033        smooth   raw
+best cfg 17: 0.0055 +/- 0.0009; 1-SE pick cfg 14: 0.0056
+
+wrote C:\Users\aaron\Desktop\Airfoil\results\svr_tuned.json
+exit 0

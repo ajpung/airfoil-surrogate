@@ -1,0 +1,6 @@
+{
+  "Cd": {"C": 5.0453836406919805, "epsilon": 0.0214697165330862, "gamma": 0.027652305241177226,
+         "filter": "smooth", "feats": "raw", "cv_mean": 0.5846, "note": "round 1, restored from tune.log"},
+  "Cl": {"C": 0.9954424642921836, "epsilon": 0.005243597075148726, "gamma": 0.0213785846251826,
+         "filter": "conflict+jump", "feats": "raw", "cv_mean": 0.0075, "note": "round 1, restored from tune.log"}
+}
